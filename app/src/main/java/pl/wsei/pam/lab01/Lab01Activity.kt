@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.get
 import kotlin.math.min
 
-class MainActivity : AppCompatActivity() {
+class Lab01Activity : AppCompatActivity() {
     lateinit var mLayout: LinearLayout
     lateinit var mProgress: ProgressBar
 
