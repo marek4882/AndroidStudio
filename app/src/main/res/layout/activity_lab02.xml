@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    app:columnCount="3"
+    app:useDefaultMargins="true"
+    tools:context="pl.wsei.pam.lab02.Lab02Activity">
+
+    <Button
+        android:id="@+id/main_6_6_board"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_6_x_6"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_rocket_launch_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp"
+        app:layout_column="0"
+        app:layout_row="0"
+        app:layout_rowSpan="1"
+        app:layout_rowWeight="1"
+        app:layout_columnWeight="1"
+        android:tag="6 6"/>
+
+    <Button
+        android:id="@+id/main_4_4_board"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_4x4"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_rocket_launch_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp"
+        app:layout_column="1"
+        app:layout_row="0"
+        app:layout_rowSpan="1"
+        app:layout_rowWeight="1"
+        app:layout_columnWeight="1"
+        android:tag="4 4"/>
+
+    <Button
+        android:id="@+id/main_4_3_board"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_4x3"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_rocket_launch_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp"
+        app:layout_column="0"
+        app:layout_row="1"
+        app:layout_rowSpan="1"
+        app:layout_rowWeight="1"
+        app:layout_columnWeight="1"
+        android:tag="4 3"/>
+
+    <Button
+        android:id="@+id/main_3_2_board"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_3x2"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_rocket_launch_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp"
+        app:layout_column="1"
+        app:layout_row="1"
+        app:layout_rowSpan="1"
+        app:layout_rowWeight="1"
+        app:layout_columnWeight="1"
+        android:tag="3 2"/>
+
+</androidx.gridlayout.widget.GridLayout>
